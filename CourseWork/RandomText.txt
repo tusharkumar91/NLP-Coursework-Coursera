@@ -1,0 +1,37 @@
+
+Variation sorting using Machine learning(MLVS)
+Mini Press Release 
+Seattle – 2018– Amazon.com, Inc. (NASDAQ: AMZN) Amazon announced today that customers can find in the detail page, product variations sorted as per customer preferences. When the customer signs into their respective accounts, and clicks on the product description detail page, they will see the variations sorted based on the customer profile. 
+“Its so much easier now that I get my preferred size of jeans. I always buy size 40W which used to show up at the end of the list. Now I can see it as soon as I open the page and know if it’s in stock immediately” remarked Andy, a 10yr Prime Amazon customer.
+Until today, customers had to scroll through the entire list of variations to find the exact variation they were looking for, which is time consuming especially on mobile devices. This delayed their purchase decisions, or at times, they dropped the purchase itself. 
+A customer complained - “When I wish to find a particular variation of a product, sometimes I have to scroll through all the variations to find what I like. It’s time consuming and difficult, particularly on a mobile device.”
+ “Customers who have a preference of a particular version or always buy specific versions of a product, will now see that specific version right up front and don’t have to scroll through all variations to find their choice. This saves time to find the product and make the purchase decision” says SVP Sebastian Gunningham.
+
+
+
+FAQ on Detail Page- Machine learning usage for variation sorting 
+          Customer FAQs:
+1.	Question: What problem did customers face without this feature?
+Answer: Customers would spend additional time trying to find the exact variation of a product. While trying to find the exact variation, the customer would have to scroll through several variations before landing on the desired one. This led to increased product selection and purchase time. 
+2.	Question: What is the feature you are launching?
+
+Answer: The feature uses machine learning to build a customer profile of variation preferences based on historical purchase data, product sales ranking and number of customer clicks made on a particular product. An algorithm will assign a rank value to each of the variations based on the profile and sort the variations according to their respective ranks. The algorithm updates the customer profiles in real time. The customer profile will allow the customer to see a preferred set of variations upfront thereby allowing him/her to find the variation faster. 
+
+3.	What are the other solutions to solve the problem?
+Answer: Other solutions include doing sorting based on specific rules as size, color etc. However, this does not meet the customer requirements as each customer would have their unique preferences. A customer who values ‘size’ based sorting for a particular WDG would not value it for other WDG’s. This approach is not scalable. We have to build a customer profile using machine learning to solve the problem.
+4.	Is there any evidence to show the benefits of the feature?
+Answer: A CIAS based weblab was dialed up which sorted only color variations based on customer preference(computes the most bought color for a customer id under a product type) and sales rank(% of order units that are bought for a particular parent asin). This showed an uptick of $50MM on softline products. This points to the fact that sorting based on customer profiles does have a clear benefit to customers. More experimental data can be obtained to decide the best implementation of the feature and parameters that need to go in to the design of the algorithm.
+5.	How will we measure the success of the feature?
+Answer: Success of the feature is measured by decrease in the time taken to make the purchase decision of the product and increase in sales revenue by adding this feature.
+6.	How will you launch this feature?
+Answer: As phase-1 we will be only launching color-sorting feature where color dimensions would be sorted according to a particular order (say warm to cool colors). We will use the learning (and hopefully success) from this phase of the project to drive Variation sorting for all dimensions with (learned)customer preference being accounted in the order. The implementation plan is still TBD. 
+
+7.	Will the experience be any different from what it is now? 
+Answer: The shopping experience will remain exactly the same in terms of the number of product variations displayed or offered. The difference will be only in the order in which the variations are displayed which will be based on the customer preferences and profile. 
+8.	Will the feature slow down the page load?
+Answer: No, the feature is not expected to delay the page load.
+9.	Will this feature impact my privacy?
+Answer: XXXXXX …. Need to find out….
+10.	I don’t like this feature, can I not use it?
+Answer: The machine learning algorithm is expected to continuously learn the behavior of the customer and use it to improve the selection of variations displayed. If there is regression in KPIs of the feature, the algorithm has to account for it and take the necessary action – need to work out the fall back method.
+
